@@ -27,9 +27,17 @@ main {
     padding-inline: 3.5rem;
 }
 
+.descrição {
+    margin-bottom: 2.5rem;
+}
+
 .descrição h1 {
-    color:#1E2938;
+    color:var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;
+}
 
+.descrição p {
+    font-size: 0.8125rem;
+    color: var(--gray-600);
 }
